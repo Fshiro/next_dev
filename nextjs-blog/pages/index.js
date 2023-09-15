@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link' //追記
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <h1 className="title">
           Read{' '}
           <Link href="/posts/first-post">
-            <a>this page!</a>
+            this page!
           </Link>
         </h1>
       </main>
